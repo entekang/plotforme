@@ -8,7 +8,7 @@
 #'
 #' @return a ggplot object
 #' @export
-#' @import tidyverse
+#' @import dplyr ggplot2
 #'
 #' @examples
 #' onevar(diamonds, cut)
