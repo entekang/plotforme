@@ -15,7 +15,7 @@ onevar(df, var, askente = TRUE)
 Default=TRUE}
 }
 \value{
--a ggplot object-
+a ggplot object
 }
 \description{
 Determines and provides the most suitable plot for a given variable

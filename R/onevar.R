@@ -6,8 +6,9 @@
 #' @param askente Do you want Ente to choose the plot theme?
 #' Default=TRUE
 #'
-#' @return -a ggplot object-
+#' @return a ggplot object
 #' @export
+#' @import tidyverse
 #'
 #' @examples
 #' onevar(diamonds, cut)
