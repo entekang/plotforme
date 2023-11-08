@@ -41,7 +41,7 @@ twovar <- function(df, var1, var2,askente=TRUE){
           axis.title.x = element_text(margin = margin(20, 0, 0, 0)),
           plot.title = element_text(size = 16, hjust = 0.5, colour = "#14213D", margin = margin(10, 0, 10, 0)),
           plot.margin = unit(c(1,1,1,1), "cm"),
-          axis.ticks.x = eelement_line(color = "#3D4F7DFF"),
+          axis.ticks.x = element_line(color = "#3D4F7DFF"),
           axis.ticks.y = element_line(color = "#3D4F7DFF"),
           legend.key = element_blank()
         ) +
