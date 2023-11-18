@@ -1,6 +1,9 @@
 
 #' Determines and provides the most suitable plot for a given variable
 #'
+#' @description
+#' The function will automatically determine whether the given variables should be categorical or numerical.
+#' Variables with more than 10 categories will be treated as numerical.
 #' @param df The data frame or tibble
 #' @param var The variable you wish to explore
 #' @param askente Do you want Ente to choose the plot theme?
