@@ -22,7 +22,8 @@ Default=TRUE}
 a ggplot object
 }
 \description{
-Determines and provides the most suitable plot(s) for three given variables
+The function will automatically determine whether the given variables should be categorical or numerical.
+Variables with more than 10 categories will be treated as numerical.
 }
 \examples{
 threevar(diamonds, table, color, cut)

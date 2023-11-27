@@ -3,6 +3,9 @@
 
 
 #' Determines and provides the most suitable plot(s) for two given variables
+#' @description
+#' The function will automatically determine whether the given variables should be categorical or numerical.
+#' Variables with more than 10 categories will be treated as numerical.
 #'
 #' @param df The dataframe or tibble
 #' @param var1 First variable
