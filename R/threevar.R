@@ -463,7 +463,7 @@ threevar <- function(df, var1, var2, var3, askente=TRUE){
           colplot <- df %>%
             ggplot(aes(x={{var1}}, y={{var3}})) +
             geom_col()+
-            facet_wrap(vars({{var2}})) +
+            facet_wrap(vars({{var2}}))
 
 
           violplot <- df %>%
