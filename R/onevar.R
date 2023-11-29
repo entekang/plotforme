@@ -16,6 +16,7 @@
 #' @examples
 #' onevar(diamonds, cut)
 onevar <- function(df, var, askente=TRUE){
+
   # if less than 10 levels, make it into factor
   num_levs <- df %>% select({{var}}) %>% n_distinct
 
