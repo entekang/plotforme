@@ -5,7 +5,7 @@
 #'
 #' @description
 #' The function will automatically determine whether the given variables should be categorical or numerical.
-#' Variables with more than 10 categories will be treated as numerical.
+#' Variables with more than 10 categories will be treated as numerical. Note: barplots are for total counts whenever barplots are returned.
 #' @param df The dataframe or tibble
 #' @param var1 First variable
 #' @param var2 Second variable

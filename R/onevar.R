@@ -24,7 +24,7 @@ onevar <- function(df, var, askente=TRUE){
     if(num_levs <= 10){
       df <- df %>% mutate({{var}} := as_factor({{var}}))
       # then call bar function
-      label <- rlang::englue("A barplot of {{var}}")
+      label <- rlang::englue("A barplot of total {{var}}")
       st <- df %>% mutate({{ var }} := fct_rev(fct_infreq({{ var }}))) %>%
         group_by({{var}}) %>% summarise(n = n()) %>% ungroup()
       st %>%
@@ -84,7 +84,7 @@ onevar <- function(df, var, askente=TRUE){
     if(num_levs <= 10){
       df <- df %>% mutate({{var}} := as_factor({{var}}))
       # then call bar function
-      label <- rlang::englue("A barplot of {{var}}")
+      label <- rlang::englue("A barplot of total {{var}}")
       st <- df %>% mutate({{ var }} := fct_rev(fct_infreq({{ var }}))) %>%
         group_by({{var}}) %>% summarise(n = n()) %>% ungroup()
       st %>%
