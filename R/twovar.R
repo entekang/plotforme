@@ -9,8 +9,8 @@
 #' Note: barplots are for total counts whenever barplots are returned.
 #'
 #' @param df The dataframe or tibble
-#' @param var1 First variable
-#' @param var2 Second variable
+#' @param var1 First variable (numerical or categorical)
+#' @param var2 Second variable (numerical or categorical)
 #' @param askente Do you want Ente to choose the plot theme?
 #' Default=TRUE
 #'

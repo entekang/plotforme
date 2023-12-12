@@ -9,7 +9,7 @@ onevar(df, var, askente = TRUE)
 \arguments{
 \item{df}{The data frame or tibble}
 
-\item{var}{The variable you wish to explore}
+\item{var}{The variable you wish to explore (numerical or categorical)}
 
 \item{askente}{Do you want Ente to choose the plot theme?
 Default=TRUE}

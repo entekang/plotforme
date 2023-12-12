@@ -5,7 +5,7 @@
 #' The function will automatically determine whether the given variables should be categorical or numerical.
 #' Variables with more than 10 categories will be treated as numerical.
 #' @param df The data frame or tibble
-#' @param var The variable you wish to explore
+#' @param var The variable you wish to explore (numerical or categorical)
 #' @param askente Do you want Ente to choose the plot theme?
 #' Default=TRUE
 #'

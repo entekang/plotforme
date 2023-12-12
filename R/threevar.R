@@ -7,9 +7,9 @@
 #' The function will automatically determine whether the given variables should be categorical or numerical.
 #' Variables with more than 10 categories will be treated as numerical. Note: barplots are for total counts whenever barplots are returned.
 #' @param df The dataframe or tibble
-#' @param var1 First variable
-#' @param var2 Second variable
-#' @param var3 Third variable
+#' @param var1 First variable (numerical or categorical)
+#' @param var2 Second variable (numerical or categorical)
+#' @param var3 Third variable (numerical or categorical)
 #' @param askente Do you want Ente to choose the plot theme?
 #' Default=TRUE
 #'

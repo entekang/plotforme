@@ -9,11 +9,11 @@ threevar(df, var1, var2, var3, askente = TRUE)
 \arguments{
 \item{df}{The dataframe or tibble}
 
-\item{var1}{First variable}
+\item{var1}{First variable (numerical or categorical)}
 
-\item{var2}{Second variable}
+\item{var2}{Second variable (numerical or categorical)}
 
-\item{var3}{Third variable}
+\item{var3}{Third variable (numerical or categorical)}
 
 \item{askente}{Do you want Ente to choose the plot theme?
 Default=TRUE}
